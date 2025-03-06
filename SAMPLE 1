@@ -1,0 +1,8 @@
+SAMPLE PROGRAM....
+
+
+a=int(input("enter no of words:"))
+for i in range(a):
+    word=input("enter the word:")
+    l=len(word)
+    print(f"{word[0]}{l-2}{word[l-1]}")
