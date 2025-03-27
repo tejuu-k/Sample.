@@ -1,0 +1,11 @@
+number = input()
+d1 = int(number[0])
+d2 = int(number[2])
+d3 = int(number[9])
+d4= int(number[7])
+sum = d1 + d2 + d3 + d4
+print(sum)
+if sum % 3 == 0:
+    print("CODE SUCCESS")
+else:
+    print("NOT SUCCESS")
