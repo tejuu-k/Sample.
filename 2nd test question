@@ -1,0 +1,16 @@
+h=int(input())
+r=int(input())
+n=int(input())
+if (h>r) and (h>n):
+   print("Harry got most points")
+elif (r>n):
+    print("Ron got most points")
+else:
+    print("Hermione got most points")
+
+
+OUTPUT:
+45
+60
+100
+Hermione got most points
