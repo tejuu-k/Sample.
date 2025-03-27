@@ -9,3 +9,8 @@ if sum % 3 == 0:
     print("CODE SUCCESS")
 else:
     print("NOT SUCCESS")
+
+OUTPUT:
+1234567890
+12
+CODE SUCCESS
